@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "babel-preset-babili": "^0.0.9",
+    "babel-preset-env": "^1.1.4",
+    "babel-register": "^6.18.0",
+    "chokidar-cli": "^1.2.0",
+    "xo": "^0.17.1"
+  },
+  "scripts": {
+    "example": "node -r babel-register example/transform.js",
+    "start": "chokidar '+(lib|example)/**/*.js' -c 'yarn example'"
+  },
+  "name": "postcss-outside-border-radius",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "nju33/postcss-outside-border-radius.git",
+  "author": "nju33 <nju33.ki@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.escaperegexp": "^4.1.2",
+    "postcss": "^5.2.6"
+  },
+  "xo": {
+    "space": 2
+  }
+}

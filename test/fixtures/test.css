@@ -1,0 +1,10 @@
+.parent {
+  padding: 3px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.child {
+  padding: 5px;
+  border-radius: obr(.parent);
+}
